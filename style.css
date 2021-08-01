@@ -48,6 +48,10 @@ body {
     margin-left: 10px;
 }
 
+.icon-tabler-brand-youtube2 {
+    margin-left: 115px;
+}
+
 .closeOpen .redDot {
     background-color: #FF605C;
     margin-left: 30px;
@@ -105,18 +109,6 @@ body {
     margin-right: 30px;
 }
 
-.bell {
-    width: 20px;
-    height: 20px;
-    background-color: white;
-}
-
-.gridIcon {
-    width: 20px;
-    height: 20px;
-    background-color: wheat;
-}
-
 .profilePicture {
     width: 20px;
     height: 20px;
@@ -143,10 +135,10 @@ body {
 .leftIcon {
     width: 30px;
     height: 30px;
-    background-color: white;
     margin-left: 10px;
     margin-right: 10px;
 }
+
 
 .leftContained {
     display: flex;
@@ -197,10 +189,11 @@ body {
     border-radius: 15px;
     margin-left: 15px;
     margin-right: 15px;
+    cursor: pointer;
 }
 
 .advertisement {
-    width: 80%;
+    width: 98%;
     height: 300px;
     background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,252,94,1) 100%);
     border-radius: 15px;
@@ -231,7 +224,6 @@ body {
     margin-top: 25px;
     width: 280px;
     height: 250px;
-    background-color: white;
     overflow: auto;
 }
 
@@ -247,8 +239,13 @@ body {
 .channelIcon {
     height: 100px;
     width: 20%;
+}
+.cIcon {
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: blue;
+    background-color: lightblue;
+    margin-top: 5px;
 }
 .videoAbout {
     width: 80%;
